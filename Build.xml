@@ -4,15 +4,15 @@
 	<target name="cleanup">
 		<!--<delete dir="bin" />
 		<delete dir="lib" />
-		<delete dir="src" />
-		<delete dir="reports" />-->
+		<delete dir="src" />-->
+		<delete dir="reports" />
 	</target>
 	
 	<target name="create" depends="cleanup">
 		<!--<mkdir dir="bin" />
 		<mkdir dir="lib" />
-		<mkdir dir="src" />
-		<mkdir dir="reports" />-->
+		<mkdir dir="src" />-->
+		<mkdir dir="reports" />
 	</target>
 	
 	<target name="copy" depends="create">
