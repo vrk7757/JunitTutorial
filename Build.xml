@@ -2,26 +2,26 @@
 <project name="Junit Test" default="run" basedir=".">
 	
 	<target name="cleanup">
-		<delete dir="bin" />
+		<!--<delete dir="bin" />
 		<delete dir="lib" />
 		<delete dir="src" />
-		<delete dir="reports" />
+		<delete dir="reports" />-->
 	</target>
 	
 	<target name="create" depends="cleanup">
-		<mkdir dir="bin" />
+		<!--<mkdir dir="bin" />
 		<mkdir dir="lib" />
 		<mkdir dir="src" />
-		<mkdir dir="reports" />
+		<mkdir dir="reports" />-->
 	</target>
 	
 	<target name="copy" depends="create">
-		<copy overwrite="true" todir="lib">
+		<!--<copy overwrite="true" todir="lib">
 			<fileset dir="C:\Junit" includes="*.jar"></fileset>
 		</copy>
 		<copy overwrite="true" todir="src">
 			<fileset dir="D:\Test-SVN\Junit\src\com\testcases" includes="*.java"></fileset>
-		</copy>
+		</copy>-->
 	</target>
 	
 	<path id="classpath">
